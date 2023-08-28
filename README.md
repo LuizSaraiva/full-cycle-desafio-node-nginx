@@ -14,7 +14,7 @@ __O retorno da aplicação node.js para o nginx deverá ser:__
 1. Toda a aplicação deve estar disponível na porta 8080.
 
   
-### Para rodar :zap:
+### Para rodar
 ```
 git clone https://github.com/LuizSaraiva/full-cycle-desafio-node-nginx
 
