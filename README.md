@@ -1,4 +1,4 @@
-# Desafio Ngonx com Node.js
+# Desafio Nginx com Node.js
 
 ### Descrição do desafio
 > A ideia principal é que quando um usuário acesse o nginx, o mesmo fará uma chamada em nossa aplicação node.js. Essa aplicação por sua vez adicionará um registro no banco de dados mysql, cadastrando um nome na tabela people.
