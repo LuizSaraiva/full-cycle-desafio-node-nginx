@@ -1,8 +1,10 @@
 FROM node:latest
 
 WORKDIR /usr/src/app
-
 COPY . .
+
+RUN npm install -y \
+    npm install express --save
 
 RUN apt-get update && apt-get install -y wget
 
@@ -12,5 +14,3 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
     && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
 
 EXPOSE 3000
-
-#CMD [ "npm", "start" ]
